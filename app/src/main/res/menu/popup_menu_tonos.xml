@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tonoClasic"
+        android:title="Clasic" />
+    <item android:id="@+id/tonoMono"
+        android:title="Mono" />
+    <item android:id="@+id/tonoPoli"
+        android:title="Politono" />
+    <item android:id="@+id/tonoModerno"
+        android:title="Moderno" />
+</menu>

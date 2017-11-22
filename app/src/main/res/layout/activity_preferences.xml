@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jose.examen_interfaces_juanmi.PreferencesActivity">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/switch2"
+        android:layout_marginTop="41dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:text="WiFi"
+        android:layout_alignBaseline="@+id/switch1"
+        android:layout_alignBottom="@+id/switch1"
+        android:layout_toStartOf="@+id/switch1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth"
+        android:layout_alignBaseline="@+id/switch2"
+        android:layout_alignBottom="@+id/switch2"
+        android:layout_alignStart="@+id/textView3" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/switch2"
+        android:layout_marginTop="54dp"
+        android:text="Modo Silencioso" />
+
+    <TextView
+        android:id="@+id/textCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modos Silencioso Desactivado"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/checkBox" />
+
+    <TextView
+        android:id="@+id/titleTono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textCheckBox"
+        android:layout_below="@+id/textCheckBox"
+        android:layout_marginTop="38dp"
+        android:text="Tono"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTono"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/titleTono"
+        android:layout_below="@+id/titleTono"
+        android:layout_marginTop="13dp"
+        android:text="Elije un Tono" />
+
+    <TextView
+        android:id="@+id/textViewOpcionesAvanzadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewTono"
+        android:layout_below="@+id/textViewTono"
+        android:layout_marginTop="39dp"
+        android:background="@android:color/transparent"
+        android:text="Opciones Avanzadas"
+        android:textSize="18sp" />
+</RelativeLayout>

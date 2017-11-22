@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jose.examen_interfaces_juanmi.LongClickActvity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_margin="50dp"
+        android:background="@drawable/borde"
+        android:id="@+id/relativeLayout">
+        >
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtInvi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="43dp"
+        android:text="Invitado" />
+
+    <TextView
+        android:id="@+id/txtOrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtInvi"
+        android:layout_below="@+id/txtInvi"
+        android:layout_marginTop="22dp"
+        android:text="Organizador" />
+
+    <TextView
+        android:id="@+id/txtRep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtOrg"
+        android:layout_below="@+id/txtOrg"
+        android:layout_marginTop="22dp"
+        android:text="Reparador" />
+
+    <TextView
+        android:id="@+id/txtAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtRep"
+        android:layout_below="@+id/txtRep"
+        android:layout_marginTop="22dp"
+        android:text="Actor" />
+</RelativeLayout>
